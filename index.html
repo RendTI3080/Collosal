@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet"/>
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>mycollosal</title>
+    <style>
+        *{
+            font-family: 'Noto Sans', sans-serif;
+            box-sizing: border-box;
+        }
+    </style>
+  </head>
+  <body class="bg-[#0B0B22] opacity-[90%]">
+
+    <!--First Section-->
+    <div class="relative z-20">
+
+         <!--Navbar mobile Section-->
+         <div class="h-[100vh] bg-[#0B0B22] z-40 top-0 left-0 navMobile" style="display: none;">
+            <img src="image/close.png" class="fixed top-0 right-0 p-7 closeBtn lg:hidden"/>
+            <div class="h-[100vh] flex flex-col text-white text-xl gap-5 items-center justify-center">
+                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">Service</a>
+                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">How We Work</a>
+                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">Projects</a>
+                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">About</a>
+                <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold">Contact</button>
+            </div>
+        </div>
+
+        <!--Navbar Section-->
+        <nav class="flex justify-between pt-3 px-5 lg:pt-8 lg:px-20">
+            <div class="flex items-center gap-3">
+                <img src="image/icon-brand.png" alt="brand"/>
+                <h1 class="text-white text-xl font-bold">Collosal</h1>
+            </div>
+            <div class="hidden lg:flex items-center gap-10 text-base text-slate-400">
+                <a class="hover:text-white">Service</a>
+                <a class="hover:text-white">How We Work</a>
+                <a class="hover:text-white">Projects</a>
+                <a class="hover:text-white">About</a>
+            </div>
+            <img src="image/menu-bar.png" alt="" class="menuBar lg:hidden"/>
+            <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold text-white hover:bg-slate-600 hidden lg:flex">Contact</button>
+        </nav>
+    </div>
+    <!--End First Section-->
+
+  </body>
+  <script>
+    let navMobileMenu = document.querySelector('.navMobile');
+    let menuBar = document.querySelector('.menuBar');
+    let closeBtn = document.querySelector('.closeBtn');
+
+    menuBar.addEventListener("click", function(){
+        navMobileMenu.style.display = 'block'
+    })
+
+    closeBtn.addEventListener("click", function(){
+        navMobileMenu.style.display = 'none'
+    })
+  </script>
 </html>
