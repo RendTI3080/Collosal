@@ -13,79 +13,141 @@
     />
     <title>mycollosal</title>
     <style>
-      *{
-        font-family: 'Noto Sans', sans-serif;
+      * {
+        font-family: "Noto Sans", sans-serif;
         box-sizing: border-box;
       }
     </style>
   </head>
   <body class="bg-[#0B0B22]">
-
     <!--First Section-->
     <div class="relative z-20">
-
-         <!--Navbar mobile Section-->
-         <div class="h-[100vh] bg-[#0B0B22] z-40 top-0 left-0 navMobile" style="display: none;">
-            <img src="image/close.png" class="fixed top-0 right-0 p-7 closeBtn lg:hidden"/>
-            <div class="h-[100vh] flex flex-col text-white text-xl gap-5 items-center justify-center">
-                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">Service</a>
-                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">How We Work</a>
-                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">Projects</a>
-                <a class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold">About</a>
-                <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold">Contact</button>
-            </div>
+      <!--Navbar mobile Section-->
+      <div
+        class="h-[100vh] bg-[#0B0B22] z-40 top-0 left-0 navMobile"
+        style="display: none"
+      >
+        <img
+          src="image/close.png"
+          class="fixed top-0 right-0 p-7 closeBtn lg:hidden"
+        />
+        <div
+          class="h-[100vh] flex flex-col text-white text-xl gap-5 items-center justify-center"
+        >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >Service</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >How We Work</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >Projects</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >About</a
+          >
+          <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold">
+            Contact
+          </button>
         </div>
+      </div>
 
-        <!--Navbar Section-->
-        <nav class="flex justify-between pt-3 px-5 lg:pt-8 lg:px-20">
-            <div class="flex items-center gap-3">
-                <img src="image/icon-brand.png" alt="brand"/>
-                <h1 class="text-white text-xl font-bold">Collosal</h1>
-            </div>
-            <div class="hidden lg:flex items-center gap-10 text-sm text-slate-400">
-                <a class="hover:text-white">Service</a>
-                <a class="hover:text-white">How We Work</a>
-                <a class="hover:text-white">Projects</a>
-                <a class="hover:text-white">About</a>
-            </div>
-            <img src="image/menu-bar.png" alt="" class="menuBar lg:hidden"/>
-            <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold text-white hover:bg-slate-600 hidden lg:flex">Contact</button>
-        </nav>
-
-        <!--Main Section-->
-
-        <div class="text-center mx-auto pt-14 px-7">
-          <img src="image/Ellipse 1.png" class="absolute blur-[80px] -z-20 opacity-10 hidden lg:block lg:left-[480px] lg:top-0 lg:w-[20%] lg:h-[50%]"/>
-          <img src="image/eclipse-header-left.png" class="absolute blur-[80px] -z-10 opacity-10 left-0 top-0"/>
-          <img src="image/eclipse-header-right.png" class="absolute blur-[80px] -z-10 opacity-10 right-16 top-0"/>
-          <h1 class="text-[#16FCD2] text-sm">CLIENT-DEVELOPMENT DRIVEN</h1>
-          <h1 class="text-[#ffffff] font-bold text-2xl my-4 mx-auto md:w-1/2 lg:w-[40%] lg:text-3xl lg:leading-relaxed">We Design. We Develop. We Ship. In The Same Day.</h1>
-          <p class="text-slate-300 text-base leading-8 mx-auto md:w-3/4 lg:w-[40%]">We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work</p>
-          <div class="flex justify-center gap-4 mt-5 md:mt-8 lg:items-center">
-            <button class="text-white font-semibold px-8 py-3 rounded-md lg:px-14" style="background-color: #6016FC;">Send Quote</button>
-            <button class="text-white font-semibold px-8 py-3 rounded-md bg-slate-800 lg:px-14 hover:bg-slate-600">Learn More</button>
-          </div>
+      <!--Navbar Section-->
+      <nav class="flex justify-between pt-3 px-5 lg:pt-8 lg:px-20">
+        <div class="flex items-center gap-3">
+          <img src="image/icon-brand.png" alt="brand" />
+          <h1 class="text-white text-xl font-bold">Collosal</h1>
         </div>
+        <div class="hidden lg:flex items-center gap-10 text-sm text-slate-400">
+          <a class="hover:text-white">Service</a>
+          <a class="hover:text-white">How We Work</a>
+          <a class="hover:text-white">Projects</a>
+          <a class="hover:text-white">About</a>
+        </div>
+        <img src="image/menu-bar.png" alt="" class="menuBar lg:hidden" />
+        <button
+          class="bg-slate-800 py-3 px-8 rounded-md font-semibold text-white hover:bg-slate-600 hidden lg:flex"
+        >
+          Contact
+        </button>
+      </nav>
+
+      <!--Main Section-->
+
+      <div class="text-center mx-auto pt-14 px-7">
+        <img
+          src="image/Ellipse 1.png"
+          class="absolute blur-[80px] -z-20 opacity-10 hidden lg:block lg:left-[480px] lg:top-0 lg:w-[20%] lg:h-[50%]"
+        />
+        <img
+          src="image/eclipse-header-left.png"
+          class="absolute blur-[80px] -z-10 opacity-10 left-0 top-0"
+        />
+        <img
+          src="image/eclipse-header-right.png"
+          class="absolute blur-[80px] -z-10 opacity-10 right-16 top-0"
+        />
+        <h1 class="text-[#16FCD2] text-sm">CLIENT-DEVELOPMENT DRIVEN</h1>
+        <h1
+          class="text-[#ffffff] font-bold text-2xl my-4 mx-auto md:w-1/2 lg:w-[40%] lg:text-3xl lg:leading-relaxed"
+        >
+          We Design. We Develop. We Ship. In The Same Day.
+        </h1>
+        <p
+          class="text-slate-300 text-base leading-8 mx-auto md:w-3/4 lg:w-[40%]"
+        >
+          We are committed to not making clients wait. We will deliver the work
+          as quickly as possible. Even on the same day. Even so, we do not
+          reduce the quality of our work
+        </p>
+        <div class="flex justify-center gap-4 mt-5 md:mt-8 lg:items-center">
+          <button
+            class="text-white font-semibold px-8 py-3 rounded-md lg:px-14"
+            style="background-color: #6016fc"
+          >
+            Send Quote
+          </button>
+          <button
+            class="text-white font-semibold px-8 py-3 rounded-md bg-slate-800 lg:px-14 hover:bg-slate-600"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
     </div>
     <!--End First Section-->
 
     <!--Second Section-->
     <div class="pt-10 px-10 z-20 lg:px-32 lg:mt-16">
-      <div class="md:flex items-start justify-between md:items-stretch text-white md:gap-5">
+      <div
+        class="md:flex items-start justify-between md:items-stretch text-white md:gap-5"
+      >
         <div class="bg-slate-900 p-10 rounded-md mb-10 md:w-[30%]">
-          <img src="image/icon-figma.png" class="bg-slate-800 p-5 rounded-md"/>
+          <img src="image/icon-figma.png" class="bg-slate-800 p-5 rounded-md" />
           <h1 class="font-semibold text-xl my-5">Design</h1>
-          <p class="text-slate-200 text-sm leading-7">The project interfce will be design first, We use tool like figma</p>
+          <p class="text-slate-200 text-sm leading-7">
+            The project interfce will be design first, We use tool like figma
+          </p>
         </div>
         <div class="bg-slate-900 p-10 rounded-md mb-10 md:w-[30%]">
-          <img src="image/icon-code.png" class="bg-slate-800 p-5 rounded-md"/>
+          <img src="image/icon-code.png" class="bg-slate-800 p-5 rounded-md" />
           <h1 class="font-semibold text-xl my-5">Develop</h1>
-          <div class="text-slate-200 text-sm leading-7">Transform design to code. Create business logic choose technology we need</div>
+          <div class="text-slate-200 text-sm leading-7">
+            Transform design to code. Create business logic choose technology we
+            need
+          </div>
         </div>
         <div class="bg-slate-900 p-10 rounded-md mb-10 md:w-[30%]">
-          <img src="image/icon-ship.png" class="bg-slate-800 p-5 rounded-md"/>
+          <img src="image/icon-ship.png" class="bg-slate-800 p-5 rounded-md" />
           <h1 class="font-semibold text-xl my-5">Ship</h1>
-          <p class="text-slate-200 text-sm leading-7">After all works is done, We send you all data like code, design, and documentation</p>
+          <p class="text-slate-200 text-sm leading-7">
+            After all works is done, We send you all data like code, design, and
+            documentation
+          </p>
         </div>
       </div>
     </div>
@@ -93,49 +155,92 @@
 
     <!--Third Section-->
     <div class="flex px-10 mb-5 mt-5 justify-center">
-      <div class="flex border-t-2 border-b-2 py-10 border-slate-700 lg:w-[80%] justify-center">
-        <div class="grid grid-cols-2 gap-10 md:flex justify-around items-center lg:w-[70%]">
-          <img src="image/icon-github.png"/>
-          <img src="image/icon-forbes.png"/>
-          <img src="image/icon-google.png"/>
-          <img src="image/icon-microsoft.png"/>
-          <img src="image/icon-facebook.png"/>
+      <div
+        class="flex border-t-2 border-b-2 py-10 border-slate-700 lg:w-[80%] justify-center"
+      >
+        <div
+          class="grid grid-cols-2 gap-10 md:flex justify-around items-center lg:w-[70%]"
+        >
+          <img src="image/icon-github.png" />
+          <img src="image/icon-forbes.png" />
+          <img src="image/icon-google.png" />
+          <img src="image/icon-microsoft.png" />
+          <img src="image/icon-facebook.png" />
         </div>
       </div>
     </div>
     <!--End Third Section-->
 
     <!--Fourth Section-->
-    <div class="mt-2 mb-10 px-7 md:px-20 lg:flex lg:items-center lg:justify-between relative z-10">
-      <img src="image/planned-svg-1.png" class="absolute top-0 left-0 blur-[60px] -z-10 opacity-10 overflow-hidden"/>
-      <img src="image/planned-svg-2.png" class="absolute -z-10 top-0 left-0 lg:left-80 blur-[60px] opacity-10 overflow-hidden"/>
-      <img src="image/planned-image.png" class="mx-auto w-[100%] scale-110 md:scale-90"/>
+    <div
+      class="mt-2 mb-10 px-7 md:px-20 lg:flex lg:items-center lg:justify-between relative z-10"
+    >
+      <img
+        src="image/planned-svg-1.png"
+        class="absolute top-0 left-0 blur-[60px] -z-10 opacity-10 overflow-hidden"
+      />
+      <img
+        src="image/planned-svg-2.png"
+        class="absolute -z-10 top-0 left-0 lg:left-80 blur-[60px] opacity-10 overflow-hidden"
+      />
+      <img
+        src="image/planned-image.png"
+        class="mx-auto w-[100%] scale-110 md:scale-90"
+      />
       <div class="lg:w-[80%]">
         <p class="text-slate-200 text-start">How We Work?</p>
-        <h1 class="text-white font-semibold my-3 text-2xl leading-10">Everything is well planned, well designed and developed wholeheartedly</h1>
-        <p class="text-slate-300 leading-7 mt-5">Careful planning makes us confident, developed with best practices so that the project can be maintaned. We always test projects before they are shipped</p>
+        <h1 class="text-white font-semibold my-3 text-2xl leading-10">
+          Everything is well planned, well designed and developed wholeheartedly
+        </h1>
+        <p class="text-slate-300 leading-7 mt-5">
+          Careful planning makes us confident, developed with best practices so
+          that the project can be maintaned. We always test projects before they
+          are shipped
+        </p>
       </div>
     </div>
     <!--End Fourth Section-->
 
     <!--Fifth Section-->
-    <div class="flex px-7 mb-10 md:px-20 lg:flex-row lg:px-40 lg:gap-10 flex-col-reverse justify-between items-center gap-12 md:gap-0">
+    <div
+      class="flex px-7 mb-10 md:px-20 lg:flex-row lg:px-40 lg:gap-10 flex-col-reverse justify-between items-center gap-12 md:gap-0"
+    >
       <div class="md:-translate-y-16 lg:w-[40%]">
         <p class="text-slate-200">Our Team</p>
-        <h1 class="text-white font-semibold my-3 text-2xl leading-10">We`re a ream of designers, engineers and analysts</h1>
-        <p class="text-slate-200 leading-7 mt-5">Out ream consists of many creative people.We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results.</p>
-        <button class="text-white px-8 py-3 bg-slate-800 rounded-sm mt-10">See Our Team</button>
+        <h1 class="text-white font-semibold my-3 text-2xl leading-10">
+          We`re a ream of designers, engineers and analysts
+        </h1>
+        <p class="text-slate-200 leading-7 mt-5">
+          Out ream consists of many creative people.We are committed to
+          maintaining quality work as well as speed. These creative people work
+          together to create maximum work results.
+        </p>
+        <button class="text-white px-8 py-3 bg-slate-800 rounded-sm mt-10">
+          See Our Team
+        </button>
       </div>
       <div>
         <div class="mt-10 relative w-[100%] lg:w-[90%]">
-          <img src="image/team-svg.png" class="absolute blur-3xl opacity-10 left-0 lg:left-48 md:right-0"/>
+          <img
+            src="image/team-svg.png"
+            class="absolute blur-3xl opacity-10 left-0 lg:left-48 md:right-0"
+          />
           <div class="md:relative">
-            <img src="image/section-3-right-0.png" class="mx-auto lg:w-[100%]"/>
-            <img src="image/people-section-right-3-0.png" class="absolute -bottom-7 -left-5 w-[20%]"/>
+            <img
+              src="image/section-3-right-0.png"
+              class="mx-auto lg:w-[100%]"
+            />
+            <img
+              src="image/people-section-right-3-0.png"
+              class="absolute -bottom-7 -left-5 w-[20%]"
+            />
           </div>
           <div class="md:relative mt-5 -right-36 -top-36 lg:w-[80%]">
-            <img src="image/people-section-right-3.png" class="absolute -top-7 -right-5 w-[20%] md:right-10 lg:-right-5"/>
-            <img src="image/section-3-right.png" class="mx-auto lg:w-[100%]"/>
+            <img
+              src="image/people-section-right-3.png"
+              class="absolute -top-7 -right-5 w-[20%] md:right-10 lg:-right-5"
+            />
+            <img src="image/section-3-right.png" class="mx-auto lg:w-[100%]" />
           </div>
         </div>
       </div>
@@ -143,61 +248,240 @@
     <!--End Fifth Section-->
 
     <!--Sixth Section-->
-    <div class="mx-7 border-t-2 border-slate-800 pt-10 pb-10 lg:pt-32 lg:mx-60 relative">
+    <div
+      class="mx-7 border-t-2 border-slate-800 pt-10 pb-10 lg:pt-32 lg:mx-60 relative"
+    >
       <div>
-        <img src="image/lingkaran-left.png" class="absolute left-0 top-20 -z-10"/>
-        <img src="image/lingkaran-right-1.png" class="absolute right-0 top-10 -z-10"/>
-        <img src="image/lingkaran-right-2.png" class="absolute right-0 lg:-right-28 top-40 -z-10"/>
+        <img
+          src="image/lingkaran-left.png"
+          class="absolute left-0 top-20 -z-10"
+        />
+        <img
+          src="image/lingkaran-right-1.png"
+          class="absolute right-0 top-10 -z-10"
+        />
+        <img
+          src="image/lingkaran-right-2.png"
+          class="absolute right-0 lg:-right-28 top-40 -z-10"
+        />
       </div>
-      <p class="text-[#16FCD2] text-sm text-center">Projects</p>
-      <h1 class="text-white font-semibold text-2xl text-center my-4 md:w-[50%] mx-auto leading-10">We have complated many amazing projects that you will not believe</h1>
+      <p class="text-[#16FCD2] text-sm text-center">PROJECTS</p>
+      <h1
+        class="text-white font-semibold text-2xl text-center my-4 md:w-[50%] mx-auto leading-10"
+      >
+        We have complated many amazing projects that you will not believe
+      </h1>
 
       <!--Card Section-->
       <div class="md:flex justify-center gap-5 w-full">
-
         <!--Card 1-->
         <div>
           <div class="bg-slate-900 mt-6 py-40 md:px-40 lg:px-60 relative">
-            <div class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"></div>
-            <div class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"></div>
-            <div class="w-[60%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"></div>
+            <div
+              class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[60%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"
+            ></div>
           </div>
           <div class="mt-10 text-center">
-            <h1 class="text-white text-lg font-bold">The Mobile App Landing Page</h1>
-            <p class="text-slate-300 text-sm my-3">A landing page for mobile app</p>
-            <button class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full">Detail</button>
+            <h1 class="text-white text-lg font-bold">
+              The Mobile App Landing Page
+            </h1>
+            <p class="text-slate-300 text-sm my-3">
+              A landing page for mobile app
+            </p>
+            <button
+              class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full"
+            >
+              Detail
+            </button>
           </div>
         </div>
 
         <!--Card 2-->
-         <div>
+        <div>
           <div class="bg-slate-900 mt-6 py-40 md:px-40 lg:px-60 relative">
-            <div class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"></div>
-            <div class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"></div>
-            <div class="w-[60%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"></div>
+            <div
+              class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[60%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"
+            ></div>
           </div>
           <div class="mt-10 text-center">
-            <h1 class="text-white text-lg font-bold">The Desktop App Landing Page</h1>
-            <p class="text-slate-300 text-sm my-3">A landing page for Desktop app</p>
-            <button class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full">Detail</button>
+            <h1 class="text-white text-lg font-bold">
+              The Desktop App Landing Page
+            </h1>
+            <p class="text-slate-300 text-sm my-3">
+              A landing page for Desktop app
+            </p>
+            <button
+              class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full"
+            >
+              Detail
+            </button>
           </div>
         </div>
       </div>
     </div>
     <!--End Sixth Section-->
 
+    <!--Seventh Section-->
+    <div class="bg-[#221048] py-10 rounded-md p-6 lg:m-10">
+      <p class="text-[#16FCD2] text-sm text-center">GET STARTED</p>
+      <h1
+        class="text-white font-semibold text-2xl text-center my-4 leading-9 md:w-[50%] lg:w-[30%] mx-auto lg:leading-10"
+      >
+        What do you need? Choose a service that can help you
+      </h1>
+
+      <!--Card Section-->
+
+      <div
+        class="px-2 md:px-10 mt-10 md:flex md:justify-around md:gap-0 justify-center gap-5"
+      >
+        <div class="bg-[#3f2379] pt-10 pb-5 px-10 rounded-md mb-5 md:w-[30%]">
+          <div
+            class="flex md:flex-col md:text-center md:pb-2 md:gap-4 justify-between border-b-2 mx-5 pb-10 border-slate-200 border-opacity-5"
+          >
+            <h2 class="text-white font-semibold">UI Design</h2>
+            <div class="text-white">
+              <p class="text-xs text-slate-400">Starting from</p>
+              <p class="font-bold">1200$</p>
+            </div>
+          </div>
+
+          <div class="text-white text-center my-10 flex flex-col gap-5">
+            <p>10 design pages</p>
+            <p>Well documentation</p>
+            <p>4 Revisions</p>
+            <p>$100/additional page</p>
+          </div>
+
+          <div>
+            <button
+              class="bg-white text-blue-400 rounded-sm w-[100%] font-semibold mt-5 py-3 px-2"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <div class="bg-[#233679] pt-10 pb-5 px-10 rounded-md mb-5 md:w-[30%]">
+          <div
+            class="flex md:flex-col md:text-center md:pb-2 md:gap-4 justify-between border-b-2 mx-5 pb-10 border-slate-200 border-opacity-5"
+          >
+            <h2 class="text-white font-semibold">Development</h2>
+            <div class="text-white">
+              <p class="text-xs text-slate-400">Starting from</p>
+              <p class="font-bold">5000$</p>
+            </div>
+          </div>
+
+          <div class="text-white text-center my-10 flex flex-col gap-5">
+            <p>Web & Mobile</p>
+            <p>Well documentation</p>
+            <p>8 Revisions</p>
+            <p>$1000/additional feature</p>
+          </div>
+
+          <div>
+            <button
+              class="bg-white text-blue-400 rounded-sm w-[100%] font-semibold mt-5 py-3 px-2"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <div class="bg-[#792366] pt-10 pb-5 px-10 rounded-md mb-5 md:w-[30%]">
+          <div
+            class="flex justify-between md:flex-col md:text-center md:pb-2 md:gap-4 border-b-2 mx-5 pb-10 border-slate-200 border-opacity-5"
+          >
+            <h2 class="text-white font-semibold">Maintenance</h2>
+            <div class="text-white">
+              <p class="text-xs text-slate-400">Starting from</p>
+              <p class="font-bold">3000$</p>
+            </div>
+          </div>
+
+          <div class="text-white text-center my-10 flex flex-col gap-5">
+            <p>Daily Backup</p>
+            <p>3 hourse Maintenance</p>
+            <p>Including Fixing</p>
+            <p>$50/additional hour</p>
+          </div>
+
+          <div>
+            <button
+              class="bg-white text-blue-400 rounded-sm w-[100%] font-semibold mt-5 py-3 px-2"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Sevent Section-->
+
+    <!--Eighth Section-->
+    <div class="pt-10 mb-5">
+      <div class="p-10">
+        <p class="text-[#16FCD2] text-sm text-center">TESTIMONIAL</p>
+        <h1 class="text-white font-semibold text-2xl text-center my-4 leading-9 md:w-[50%] lg:w-[30%] mx-auto lg:leading-10">What do our clients say that we never let down?</h1>
+      </div>
+
+      <!--Card Section-->
+
+      <div class="md:flex flex-wrap mx-2 justify-center lg:mx-10 lg:mt-10">
+        <div class="bg-[#161629] px-10 py-16 m-5 rounded-md md:w-[40%] lg:w-[30%] hover:border-[#6016FC] hover:border-2 hover:lg:-translate-y-16">
+          <img src="image/Avatarp1.png" class="mx-auto"/>
+          <div class="text-white text-center">
+            <p class="font-bold mt-5 text-xl">Courtney Henry</p>
+            <p class="text-slate-300 my-5 text-sm">Biffco Enterprises Ltd.</p>
+            <p class="text-slate-400">"Very easy to use. I made back the purchase price in just 48 hours! It's great. It's both attractive and highly adaptable"</p>
+          </div>
+        </div>
+        <div class="bg-[#161629] px-10 py-16 m-5 rounded-md hover:border-[#6016FC] hover:border-2  md:w-[40%] lg:w-[30%] hover:lg:-translate-y-16">
+          <img src="image/Avatarp2.png" class="mx-auto"/>
+          <div class="text-white text-center">
+            <p class="font-bold mt-5 text-xl">Esther Howard</p>
+            <p class="text-slate-300 my-5 text-sm">Abstergo Ltd.</p>
+            <p class="text-slate-400">"Your company is truly upstanding and is behind it's product 100%. It's the perfect solution for out business. It has realy helped our business."</p>
+          </div>
+        </div>
+        <div class="bg-[#161629] px-10 py-16 m-5 rounded-md  md:w-[40%] lg:w-[30%] hover:border-[#6016FC] hover:border-2 hover:lg:-translate-y-16">
+          <img src="image/Avatarp3.png" class="mx-auto"/>
+          <div class="text-white text-center">
+            <p class="font-bold mt-5 text-xl">Ronald Richards</p>
+            <p class="text-slate-300 my-5 text-sm">Barone LLC.</p>
+            <p class="text-slate-400">"I'm really satisfied with it. I'm good to go. It really saves my time and effort. It's is exactly what our business has been lacking."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Eighth Section-->
+
+
+
   </body>
+
   <script>
-    let navMobileMenu = document.querySelector('.navMobile');
-    let menuBar = document.querySelector('.menuBar');
-    let closeBtn = document.querySelector('.closeBtn');
+    let navMobileMenu = document.querySelector(".navMobile");
+    let menuBar = document.querySelector(".menuBar");
+    let closeBtn = document.querySelector(".closeBtn");
 
-    menuBar.addEventListener("click", function(){
-        navMobileMenu.style.display = 'block'
-    })
+    menuBar.addEventListener("click", function () {
+      navMobileMenu.style.display = "block";
+    });
 
-    closeBtn.addEventListener("click", function(){
-        navMobileMenu.style.display = 'none'
-    })
+    closeBtn.addEventListener("click", function () {
+      navMobileMenu.style.display = "none";
+    });
   </script>
 </html>
