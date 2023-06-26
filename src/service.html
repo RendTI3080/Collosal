@@ -311,4 +311,18 @@
     </div>
     <!--End Seventh Section-->
   </body>
+
+  <script>
+    let navMobileMenu = document.querySelector(".navMobile");
+    let menuBar = document.querySelector(".menuBar");
+    let closeBtn = document.querySelector(".closeBtn");
+
+    menuBar.addEventListener("click", function () {
+      navMobileMenu.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", function () {
+      navMobileMenu.style.display = "none";
+    });
+  </script>
 </html>

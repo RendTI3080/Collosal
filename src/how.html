@@ -34,6 +34,7 @@
         >
           <a
             class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            href="./service.html"
             >Service</a
           >
           <a
@@ -63,7 +64,7 @@
           </a>
         </div>
         <div class="hidden lg:flex items-center gap-10 text-sm text-slate-400">
-          <a class="hover:text-white">Service</a>
+          <a class="hover:text-white" href="./service.html">Service</a>
           <a class="hover:text-white">How We Work</a>
           <a class="hover:text-white">Projects</a>
           <a class="hover:text-white">About</a>
@@ -201,4 +202,18 @@
     </div>
     <!--End Seventh Section-->
   </body>
+
+  <script>
+    let navMobileMenu = document.querySelector(".navMobile");
+    let menuBar = document.querySelector(".menuBar");
+    let closeBtn = document.querySelector(".closeBtn");
+
+    menuBar.addEventListener("click", function () {
+      navMobileMenu.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", function () {
+      navMobileMenu.style.display = "none";
+    });
+  </script>
 </html>
