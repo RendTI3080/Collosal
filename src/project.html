@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Collosal</title>
+    <style>
+      * {
+        font-family: "Noto Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#0B0B22]">
+    <!--First Section-->
+    <div class="relative z-20">
+      <!--Navbar mobile Section-->
+      <div
+        class="h-[100vh] bg-[#0B0B22] z-40 top-0 left-0 navMobile"
+        style="display: none"
+      >
+        <img
+          src="../image/close.png"
+          class="fixed top-0 right-0 p-7 closeBtn lg:hidden"
+        />
+        <div
+          class="h-[100vh] flex flex-col text-white text-xl gap-5 items-center justify-center"
+        >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            href="./service.html"
+            >Service</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >How We Work</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >Projects</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >About</a
+          >
+          <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold">
+            Contact
+          </button>
+        </div>
+      </div>
+
+      <!--Navbar Section-->
+      <nav class="flex justify-between pt-3 px-5 lg:pt-8 lg:px-20">
+        <div class="flex items-center">
+          <a href="../index.html" class="flex items-center gap-3">
+            <img src="../image/icon-brand.png" alt="brand" />
+            <h1 class="text-white text-xl font-bold">Collosal</h1>
+          </a>
+        </div>
+        <div class="hidden lg:flex items-center gap-10 text-sm text-slate-400">
+          <a class="hover:text-white" href="./service.html">Service</a>
+          <a class="hover:text-white">How We Work</a>
+          <a class="hover:text-white">Projects</a>
+          <a class="hover:text-white">About</a>
+        </div>
+        <img src="../image/menu-bar.png" alt="" class="menuBar lg:hidden" />
+        <button
+          class="bg-slate-800 py-3 px-8 rounded-md font-semibold text-white hover:bg-slate-600 hidden lg:flex"
+        >
+          Contact
+        </button>
+      </nav>
+    </div>
+    <!--End First Section-->
+
+    <!--Second Section-->
+    <div
+      class="flex flex-col md:flex-row border-b-2 border-slate-800  justify-center mt-5 mx-14 pb-10 lg:mt-16 lg:mx-32 lg:pb-16 lg:items-center relative md:justify-between lg:w-[80%]"
+    >
+      <img
+        src="../image/Ellipse 1.png"
+        class="absolute blur-[80px] -z-20 opacity-10 hidden lg:block lg:left-[480px] lg:top-0 lg:w-[20%] lg:h-[50%]"
+      />
+      <img
+        src="../image/eclipse-header-left.png"
+        class="absolute blur-[80px] -z-10 opacity-10 left-0 top-0"
+      />
+      <img
+        src="../image/eclipse-header-right.png"
+        class="absolute blur-[80px] -z-10 opacity-10 right-16 top-0"
+      />
+      <div class="text-white text-center md:text-start mx-auto md:mx-0 md:w-[45%] lg:w-[39%] ">
+        <p class="text-[#16FCD2] text-sm">PROJECTS</p>
+        <h1
+          class="font-semibold text-xl lg:leading-10 md:text-2xl lg:text-3xl lg:font-bold lg:tracking-wider"
+        >
+          We have completed many amazing projects that you will not believe
+        </h1>
+      </div>
+      <div class="mt-5 mx-auto md:mx-0 md:my-auto">
+        <button
+          class="flex items-center gap-2 text-slate-600 px-4 py-1 bg-transparent border-slate-800 dropBtn"
+        >
+          Options
+          <svg
+            class="-mr-1 h-5 w-5 text-slate-600"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="p-5 bg-slate-900 rounded-md absolute -bottom-36 right-0 md:-bottom-24 lg:-bottom-20  z-20 hidden dropMenu"
+      >
+        <div class="flex flex-col text-slate-400 gap-3">
+          <a class="hover:text-slate-200">Technology</a>
+          <a class="hover:text-slate-200">Digital Learning</a>
+          <a class="hover:text-slate-200">Agency</a>
+          <a class="hover:text-slate-200">Corporate</a>
+        </div>
+      </div>
+    </div>
+    <!--End Second Section-->
+
+    <!--Sixth Section-->
+    <div
+      class="mx-7 pt-10 pb-10 lg:pt-32 lg:mx-44 relative"
+    >
+      <!--Card Section-->
+      <div class="md:grid md:grid-cols-2 justify-center gap-5 w-full">
+        <!--Card 1-->
+        <div>
+          <div class="bg-slate-900 mt-6 py-40 md:px-40 lg:px-56 relative">
+            <div
+              class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[40%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"
+            ></div>
+          </div>
+          <div class="mt-10 text-center">
+            <h1 class="text-white text-lg font-bold">
+              The Mobile App Landing Page
+            </h1>
+            <p class="text-slate-300 text-sm my-3">
+              A landing page for mobile app
+            </p>
+            <button
+              class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+
+        <!--Card 2-->
+        <div>
+          <div class="bg-slate-900 mt-6 py-40 md:px-40 lg:px-56 relative">
+            <div
+              class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[60%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"
+            ></div>
+          </div>
+          <div class="mt-10 text-center">
+            <h1 class="text-white text-lg font-bold">
+              The Desktop App Landing Page
+            </h1>
+            <p class="text-slate-300 text-sm my-3">
+              A landing page for Desktop app
+            </p>
+            <button
+              class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+
+        <!--Card 3-->
+        <div class="hidden md:block">
+          <div class="bg-slate-900 mt-6 py-40 md:px-40 lg:px-56 relative">
+            <div
+              class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[60%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"
+            ></div>
+          </div>
+          <div class="mt-10 text-center">
+            <h1 class="text-white text-lg font-bold">
+              The Desktop App Landing Page
+            </h1>
+            <p class="text-slate-300 text-sm my-3">
+              A landing page for Desktop app
+            </p>
+            <button
+              class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <!--Card 4-->
+        <div class="hidden md:block">
+          <div class="bg-slate-900 mt-6 py-40 md:px-40 lg:px-56 relative">
+            <div
+              class="w-[40%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-10 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[30%] h-5 bg-slate-800 rounded-full left-1/2 absolute top-20 -translate-x-1/2"
+            ></div>
+            <div
+              class="w-[40%] h-[50%] bg-slate-800 mx-auto absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-md"
+            ></div>
+          </div>
+          <div class="mt-10 text-center">
+            <h1 class="text-white text-lg font-bold">
+              The Mobile App Landing Page
+            </h1>
+            <p class="text-slate-300 text-sm my-3">
+              A landing page for mobile app
+            </p>
+            <button
+              class="text-white border-2 border-slate-200 bg-transparent px-8 py-1 mt-5 rounded-full"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <button class="text-slate-400 bg-slate-800 py-2 px-6 mx-auto mt-10">Learn More</button>
+      </div>
+    </div>
+    <!--End Sixth Section-->
+
+    <!--seventh Section-->
+    <div
+      class="relative mx-10 border-y-2 border-slate-800 py-10 mt-10 lg:mx-52"
+    >
+      <img
+        src="../image/lingkaran-left.png"
+        class="absolute top-0 -right-0 lg:-right-40 lg:-top-8 -z-10 opacity-80"
+      />
+      <div
+        class="md:flex items-center lg:items-center justify-around lg:justify-between"
+      >
+        <h1
+          class="text-white font-semibold text-2xl leading-9 md:w-[50%] lg:w-[50%] lg:leading-10"
+        >
+          We've prepared everything, It's time for you to tell the problem
+        </h1>
+        <div class="flex gap-2 mt-8 lg:mt-0 lg:h-full">
+          <button
+            class="bg-[#6016FC] py-3 px-8 lg:px-12 text-white rounded-sm text-sm"
+          >
+            Send Quote
+          </button>
+          <button
+            class="bg-slate-800 py-3 px-8 lg:px-12 text-white rounded-sm text-sm"
+          >
+            Ask Us
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--End Sixth Section-->
+
+    <!--Eigth Section-->
+    <div
+      class="mt-24 mx-10 mb-5 md:flex md:mb-10 justify-between lg:w-[60%] lg:mx-auto relative"
+    >
+      <img
+        src="../image/lingkaran-right-1.png"
+        class="absolute left-0 -top-20 lg:-left-36"
+      />
+      <div class="text-slate-500">
+        <div class="flex items-center gap-2 mb-5">
+          <img src="../image/image-footer.png" />
+          <p class="text-white text-xl font-bold">Collosal.</p>
+        </div>
+        <p>Copyright<span>&copy;</span>2023</p>
+        <p>Design By Collosal LLC</p>
+      </div>
+      <div class="text-slate-500 flex flex-col mt-10 md:mt-0 gap-4">
+        <h1 class="mb-5 text-slate-300 text-md">SERVICES</h1>
+        <a>Web Development</a>
+        <a>App Developement</a>
+        <a>UI Design</a>
+        <a>Consultation</a>
+        <a>Maintenance</a>
+      </div>
+      <div class="text-slate-500 flex flex-col mt-10 md:mt-0 gap-4">
+        <h1 class="mb-5 text-slate-300 text-md">COMPANY</h1>
+        <a>About</a>
+        <a>Contact</a>
+        <a>Send Quote</a>
+        <a>Privacy Police</a>
+        <a>Term of Service</a>
+        <a>Jobs</a>
+      </div>
+      <div class="text-slate-500 flex flex-col mt-10 md:mt-0 gap-4">
+        <h1 class="mb-5 text-slate-300 text-md">RESOURCE</h1>
+        <a>Support</a>
+        <a>documentation</a>
+        <a>License</a>
+        <a>Sitemap</a>
+      </div>
+    </div>
+    <!--End Eigth Section-->
+  </body>
+
+  <script>
+    let navMobileMenu = document.querySelector(".navMobile");
+    let menuBar = document.querySelector(".menuBar");
+    let closeBtn = document.querySelector(".closeBtn");
+
+    // dropdown
+
+    let dropBtn = document.querySelector(".dropBtn");
+    let dropMenu = document.querySelector(".dropMenu");
+    let dropItems = dropMenu.querySelectorAll("a");
+    let svgIcon = dropBtn.querySelector("svg");
+
+    menuBar.addEventListener("click", function () {
+      navMobileMenu.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", function () {
+      navMobileMenu.style.display = "none";
+    });
+
+    dropBtn.addEventListener("click", function () {
+      dropMenu.classList.toggle("hidden");
+    });
+
+    dropItems.forEach((item) => {
+      item.addEventListener("click", function () {
+        const selectedText = item.textContent;
+        dropBtn.textContent = "";
+        dropBtn.appendChild(document.createTextNode(selectedText));
+        dropBtn.appendChild(svgIcon);
+        dropMenu.classList.toggle("hidden");
+      });
+    });
+  </script>
+</html>
