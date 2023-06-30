@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>mycollosal</title>
+    <style>
+      * {
+        font-family: "Noto Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#0B0B22]">
+    <!--First Section-->
+    <div class="relative z-20">
+      <!--Navbar mobile Section-->
+      <div
+        class="h-[100vh] bg-[#0B0B22] z-40 top-0 left-0 navMobile"
+        style="display: none"
+      >
+        <img
+          src="image/close.png"
+          class="fixed top-0 right-0 p-7 closeBtn lg:hidden"
+        />
+        <div
+          class="h-[100vh] flex flex-col text-white text-xl gap-5 items-center justify-center"
+        >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            href="./src/service.html"
+            >Service</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            href="./src/how.html"
+            >How We Work</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >Projects</a
+          >
+          <a
+            class="hover:bg-slate-400 w-full mx-auto text-center py-5 font-semibold"
+            >About</a
+          >
+          <button class="bg-slate-800 py-3 px-8 rounded-md font-semibold">
+            Contact
+          </button>
+        </div>
+      </div>
+
+      <!--Navbar Section-->
+      <nav class="flex justify-between pt-3 px-5 lg:pt-8 lg:px-20">
+        <div class="flex items-center">
+          <a href="#" class="flex items-center gap-3">
+            <img src="../image/icon-brand.png" alt="brand" />
+            <h1 class="text-white text-xl font-bold">Collosal</h1>
+          </a>
+        </div>
+        <div class="hidden lg:flex items-center gap-10 text-sm text-slate-400">
+          <a class="hover:text-white" href="./src/service.html">Service</a>
+          <a class="hover:text-white" href="./src/how.html">How We Work</a>
+          <a class="hover:text-white">Projects</a>
+          <a class="hover:text-white">About</a>
+        </div>
+        <img src="../image/menu-bar.png" alt="" class="menuBar lg:hidden" />
+        <button
+          class="bg-slate-800 py-3 px-8 rounded-md font-semibold text-white hover:bg-slate-600 hidden lg:flex"
+        >
+          Contact
+        </button>
+      </nav>
+
+      <!--Main Section-->
+    </div>
+    <!--End First Section-->
+
+    <!--Second Section-->
+    <div class="mx-10 py-10 border-b-2 border-slate-800 md:flex md:gap-5 md:justify-around lg:justify-center lg:items-center lg:gap-2 lg:p-0 lg:w-[80%] lg:mx-auto lg:py-14">
+        <div class="md:w-[40%] lg:md-{50%}">
+            <img src="../image//About/about.png" alt="about">
+        </div>
+        <div class="mt-10 md:w-[50%] lg:mt-0">
+            <h1 class="text-[#16FCD2] text-sm">ABOUT</h1>
+            <P class="text-white font-semibold text-xl my-5 lg:leading-10 md:text-2xl lg:text-3xl lg:font-bold lg:tracking-wider lg:w-[80%]">We are creative, smart and hardworking people</P>
+            <p class="text-slate-500 my-4 lg:my-8 lg:leading-8">Several creative people gather in the same place - that's Collosal. We colloborate to produce the best results, loves by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields</p>
+        </div>
+    </div>
+    <!--End Second Section-->
+
+    <!--Third Section-->
+    <div class="p-10 lg:w-[75%] mx-auto">
+        <div>
+            <h1 class="text-[#16FCD2] text-sm lg:text-center">STATISTICS</h1>
+            <p class="text-white my-5 font-semibold text-xl md:text-2xl md:w-[60%] lg:w-[40%] lg:leading-9 lg:tracking-wider lg:text-center lg:mx-auto">In 3 years we reached 8 countries, 193 clients and earning $100k USD</p>
+        </div>
+        <div class="grid grid-cols-2 gap-5 md:flex md:justify-around md:bg-slate-900 md:p-10">
+            <div class="flex gap-2">
+                <img src="../image/About/flag.png" alt="flag" class="p-3 bg-slate-800 rounded-sm">
+                <div>
+                    <p class="text-white font-semibold text-xl">8</p>
+                    <p class="text-slate-400 text-sm">COUNTRIES</p>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <img src="../image/About/user.png" alt="user" class="p-3 bg-slate-800 rounded-sm">
+                <div>
+                    <p class="text-white font-semibold text-xl">193</p>
+                    <p class="text-slate-400 text-sm">CLIENTS</p>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <img src="../image/About/dollar-sign.png" alt="dollar" class="p-3 bg-slate-800 rounded-sm">
+                <div>
+                    <p class="text-white font-semibold text-xl">$100k</p>
+                    <p class="text-slate-400 text-sm">EARNING</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Third Section-->
+
+    <!--Fourth Section-->
+    <div class="mx-10 py-10 lg:px-52 lg:mx-auto">
+        <div class="grid grid-cols-2 gap-5 md:flex md:justify-around md:items-center border-y-2 border-slate-800 py-10 lg:px-16">
+            <img src="../image/icon-github.png" />
+            <img src="../image/icon-forbes.png" />
+            <img src="../image/icon-google.png" />
+            <img src="../image/icon-microsoft.png" />
+            <img src="../image/icon-facebook.png" />
+        </div>
+    </div>
+    <!--End Fourth Section-->
+
+    <!--Nineth Section-->
+    <div class="relative mx-10 border-y-2 border-slate-800 py-10 mt-10 lg:mx-52">
+      <img src="../image/lingkaran-left.png" class="absolute top-0 -right-0 lg:-right-40 lg:-top-8 -z-10 opacity-80"/>
+      <div class="md:flex items-center lg:items-center justify-around lg:justify-between">
+        <h1 class="text-white font-semibold text-2xl leading-9 md:w-[50%] lg:w-[50%] lg:leading-10">We've prepared everything, It's time for you to tell the problem</h1>
+        <div class="flex gap-2 mt-8 lg:mt-0 lg:h-full">
+          <button class="bg-[#6016FC] py-3 px-8 lg:px-12 text-white rounded-sm text-sm">Send Quote</button>
+          <button class="bg-slate-800 py-3 px-8 lg:px-12 text-white rounded-sm text-sm">Ask Us</button>
+        </div>
+      </div>
+    </div>
+    <!--End Nineth Section-->
+
+    <!--Tenth Section-->
+    <div class="mt-24 mx-10 mb-5 md:flex md:mb-10 justify-between lg:w-[60%] lg:mx-auto relative">
+      <img src="../image/lingkaran-right-1.png" class="absolute left-0 -top-20 lg:-left-36"/>
+      <div class="text-slate-500">
+        <div class="flex items-center gap-2 mb-5">
+          <img src="../image/image-footer.png"/>
+          <p class="text-white text-xl font-bold">Collosal.</p>
+        </div>
+        <p>Copyright<span>&copy;</span>2023</p>
+        <p>Design By Collosal LLC</p>
+      </div>
+      <div class="text-slate-500 flex flex-col mt-10 md:mt-0 gap-4">
+        <h1 class="mb-5 text-slate-300 text-md">SERVICES</h1>
+        <a>Web Development</a>
+        <a>App Developement</a>
+        <a>UI Design</a>
+        <a>Consultation</a>
+        <a>Maintenance</a>
+      </div>
+      <div class="text-slate-500 flex flex-col mt-10 md:mt-0 gap-4">
+        <h1 class="mb-5 text-slate-300 text-md">COMPANY</h1>
+        <a>About</a>
+        <a>Contact</a>
+        <a>Send Quote</a>
+        <a>Privacy Police</a>
+        <a>Term of Service</a>
+        <a>Jobs</a>
+      </div>
+      <div class="text-slate-500 flex flex-col mt-10 md:mt-0 gap-4">
+        <h1 class="mb-5 text-slate-300 text-md">RESOURCE</h1>
+        <a>Support</a>
+        <a>documentation</a>
+        <a>License</a>
+        <a>Sitemap</a>
+      </div>
+    </div>
+    <!--End Tenth Section-->
+  </body>
+
+  <script>
+    let navMobileMenu = document.querySelector(".navMobile");
+    let menuBar = document.querySelector(".menuBar");
+    let closeBtn = document.querySelector(".closeBtn");
+
+    menuBar.addEventListener("click", function () {
+      navMobileMenu.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", function () {
+      navMobileMenu.style.display = "none";
+    });
+  </script>
+</html>
